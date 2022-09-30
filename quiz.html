@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="list nav-pills">
+        <li class="list-inline">
+          <a class="link" href="index.html">Is Triangle ? </a>
+          <a class="link link-active" href="quiz.html">Triangle Trivia</a>
+          <a class="link" href="area.html">Area of Triangle</a>
+          <a class="link" href="hypotenuse.html">Hypotenuse of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="heading">Triangle Trivia!</h1>
+    <p class="info">Let's play a quiz!</p>
+    <form class="quiz-form">
+      <div class="question-container">
+        <p>
+          => What is the third angle of triangle where angle1 = 45 and angle2 =
+          45 ?
+        </p>
+        <label><input type="radio" name="question1" value="45" />45</label>
+        <label><input type="radio" name="question1" value="90" /> 90</label>
+        <label><input type="radio" name="question1" value="60" /> 60</label>
+      </div>
+
+      <div class="question-container">
+        <p>=> if a triangle has an angle of 90, what is it called?</p>
+        <label
+          ><input type="radio" name="question2" value="obtuse" />obtuse</label
+        >
+        <label
+          ><input type="radio" name="question2" value="acute" /> acute</label
+        >
+        <label
+          ><input type="radio" name="question2" value="right angled" /> right
+          angled</label
+        >
+      </div>
+      <div class="question-container">
+        <p>
+          => In ΔABC, if DE || BC, AD = x, DB = x – 2, AE = x + 2 and EC = x –
+          1, then value of x is
+        </p>
+        <label><input type="radio" name="question3" value="3" />3</label>
+        <label><input type="radio" name="question3" value="5" /> 5</label>
+        <label><input type="radio" name="question3" value="4" /> 4 </label>
+      </div>
+      <div class="question-container">
+        <p>
+          => The perimeters of two similar triangles ABC and PQR are 60 cm and
+          36 cm respectively. If PQ = 9 cm, then AB equals
+        </p>
+        <label><input type="radio" name="question4" value="6" />6</label>
+        <label><input type="radio" name="question4" value="10" /> 10</label>
+        <label><input type="radio" name="question4" value="15" /> 15 </label>
+      </div>
+      <div class="question-container">
+        <p>
+          => If ΔABC is similar to ΔDEF such that 2 AB = DE and BC = 8 cm then
+          EF is equal to.
+        </p>
+        <label><input type="radio" name="question5" value="12" />12</label>
+        <label><input type="radio" name="question5" value="16" /> 16</label>
+        <label><input type="radio" name="question5" value="4" /> 4</label>
+      </div>
+    </form>
+    <div class="btn">
+      <button id="submit-answer-btn">submit answers</button>
+    </div>
+    <div id="output"></div>
+    <script src="/quiz.js"></script>
+  </body>
+</html>

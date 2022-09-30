@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="list nav-pills">
+        <li class="list-inline">
+          <a class="link link-active" href="index.html">Is Triangle ? </a>
+          <a class="link" href="quiz.html">Triangle Trivia</a>
+          <a class="link" href="area.html">Area of Triangle</a>
+          <a class="link" href="hypotenuse.html">Hypotenuse of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="heading">Is Triangle?</h1>
+    <p class="info">Enter the angles to check if they make a triangle</p>
+    <div class="is-triangle-container">
+      <label for="angle1">Angle-1</label>
+      <input type="number" class="input-angle" />
+      <label for="angle2">Angle-2</label>
+      <input type="number" class="input-angle" />
+      <label for="angle3">Angle-3</label>
+      <input type="number" class="input-angle" />
+    </div>
+    <div class="btn">
+      <button id="btn-check">check</button>
+    </div>
+    <div id="output"></div>
+    <script src="/isTriangle.js"></script>
+  </body>
+</html>

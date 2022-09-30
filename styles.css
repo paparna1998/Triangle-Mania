@@ -1,0 +1,169 @@
+/* .nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 0.5rem;
+  text-align: right;
+}
+
+.nav-pills {
+  text-align: right;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+:root {
+  --primary-color: #60a5fa;
+  --gray-color: #6b7280;
+  --lightgray-color: #f3f4f6;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  /* font-weight: bold; */
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  /* height: 30rem; */
+}
+
+.nav .link {
+  color: white;
+}
+
+.nav .nav-pills {
+  text-align: right;
+}
+
+.nav .link-active {
+  font-weight: bold;
+}
+
+.nav-span {
+  /* font-size: 3rem; */
+  /* margin-bottom: 4rem; */
+  text-align: center;
+  /* float: right; */
+}
+
+.list {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  /* border: 1px solid; */
+}
+
+.heading {
+  margin-top: 2rem;
+  text-align: center;
+}
+.hypotenuse-label {
+  text-align: center;
+  /* background-color: #60a5fa; */
+}
+#hypotenuse-btn {
+  text-align: center;
+  background-color: #60a5fa;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 15%;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  cursor: pointer;
+  /* position: inherit; */
+}
+
+#hypotenuse-btn:hover,
+#hypotenuse-btn:active {
+  /* margin: 2rem; */
+  font-weight: bolder;
+  background-color: #73adf3;
+  /* padding: 0.5rem; */
+}
+.btn {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.quiz-form {
+  text-align: center;
+}
+
+.is-triangle-container {
+  text-align: center;
+  /* background-color: khaki; */
+}
+
+#btn-check {
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #60a5fa;
+  color: white;
+  border-radius: 15%;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+#btn-check:hover,
+#btn-check:active {
+  /* margin: 2rem; */
+  font-weight: bolder;
+  background-color: #73adf3;
+}
+
+#submit-answer-btn {
+  text-align: center;
+  background-color: #60a5fa;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 15%;
+  cursor: pointer;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+#submit-answer-btn:hover,
+#submit-answer-btn:active {
+  /* margin: 2rem; */
+  font-weight: bolder;
+  background-color: #73adf3;
+}
+
+.area-container {
+  text-align: center;
+}
+#output {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#area-btn {
+  text-align: center;
+  background-color: #60a5fa;
+  color: white;
+  border-radius: 15%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+#area-btn:hover,
+#sarea-btn:active {
+  /* margin: 2rem; */
+  font-weight: bolder;
+  background-color: #73adf3;
+}
+
+.info {
+  text-align: center;
+}
